@@ -7,6 +7,9 @@
 
 const TRACK_LENGTH = 70 //sometimes constant variables are shown in all CAPS
 const startBtn = document.getElementById("startBtn")
+const easyBtn = document.getElementById("easyBtn")
+const hardBtn = document.getElementById("hardBtn")
+
 const message = document.getElementById("message")
 const track = document.getElementById("track")
 
@@ -16,6 +19,7 @@ let raceIntervalId = null
 let stepCount = 0
 
 startBtn.addEventListener("click", startRace)
+
 
 function startRace(){
     tortoisePosition = 1
